@@ -1,5 +1,0 @@
-# This script creates or uses the 'my_db' database in MongoDB
-
-mongo --quiet <<EOF
-use my_db
-EOF
