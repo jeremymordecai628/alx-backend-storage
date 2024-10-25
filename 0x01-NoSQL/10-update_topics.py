@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module Name: school_db
+Description: This module provides a function to update the topics of a school document in a MongoDB collection based on the school's name.
+"""
 def update_topics(mongo_collection, name, topics):
     """
     Updates the topics of a school document based on the school's name.

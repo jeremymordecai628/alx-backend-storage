@@ -1,4 +1,9 @@
 #!/usr/bin/env/python3
+"""
+Module Name: nginx_log_stats
+Description: This module provides a function to log statistics about Nginx logs stored in MongoDB.
+"""
+
 from pymongo import MongoClient
 
 def log_stats():
