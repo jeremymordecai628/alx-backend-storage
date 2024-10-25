@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 def schools_by_topic(mongo_collection, topic):
     """
     Returns the list of schools that have a specific topic.

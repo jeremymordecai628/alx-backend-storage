@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 def insert_school(mongo_collection, **kwargs):
     """
     Inserts a new document in a MongoDB collection based on the provided keyword arguments.
