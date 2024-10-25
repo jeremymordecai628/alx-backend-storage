@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Module Name: school_db
+Description: This module provides a function to insert a new document into a MongoDB collection.
+"""
 def insert_school(mongo_collection, **kwargs):
     """
     Inserts a new document in a MongoDB collection based on the provided keyword arguments.
